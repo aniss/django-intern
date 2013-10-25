@@ -149,7 +149,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': 'project.log',
+            'filename': 'server/logs/django/project.log',
             'formatter': 'verbose'
         }
     },
